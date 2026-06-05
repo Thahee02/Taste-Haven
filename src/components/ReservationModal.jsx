@@ -117,7 +117,7 @@ export default function ReservationModal({ isOpen, onClose }) {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="Enter your full name"
                     className={`w-full px-4 py-3 bg-neutral-50 border ${
                       errors.name ? 'border-red-500' : 'border-neutral-200'
                     } text-brand-dark text-sm rounded-none focus:outline-none focus:border-brand-gold focus:bg-white transition-all`}
@@ -134,7 +134,7 @@ export default function ReservationModal({ isOpen, onClose }) {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="Enter your email address"
                     className={`w-full px-4 py-3 bg-neutral-50 border ${
                       errors.email ? 'border-red-500' : 'border-neutral-200'
                     } text-brand-dark text-sm rounded-none focus:outline-none focus:border-brand-gold focus:bg-white transition-all`}
@@ -154,7 +154,7 @@ export default function ReservationModal({ isOpen, onClose }) {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="Enter your phone number"
                     className={`w-full px-4 py-3 bg-neutral-50 border ${
                       errors.phone ? 'border-red-500' : 'border-neutral-200'
                     } text-brand-dark text-sm rounded-none focus:outline-none focus:border-brand-gold focus:bg-white transition-all`}
